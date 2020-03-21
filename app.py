@@ -1,9 +1,15 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import joblib
+import os
+
+IMAGE_FOLDER = os.path.join('static', 'images')
 
 app = Flask(__name__)
 model = joblib.load('models/linear_regression.pkl')
+app.config['UPLOAD_FOLDER'] = IMAGE_FOLDER
+
+image_file = os.path.join(app.config['UPLOAD_FOLDER'], 'elbow_method.png')
 
 @app.route("/")
 def home():
@@ -15,7 +21,7 @@ def linreg():
     return render_template('index_linreg.html')
 
 @app.route('/linear_regression/predict/',methods=['POST'])
-def predict():
+def predict_linreg():
 
     features = [float(x) for x in request.form.values()]
     final_features = [np.array(features)]
@@ -34,8 +40,6 @@ def results():
 
     output = prediction[0]
     return jsonify(output)
-
-#### Multiple Linear Regression
 
 if __name__ == "__main__":
     app.run(debug=True)

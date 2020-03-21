@@ -22,6 +22,13 @@ body {
 	height:400px;
 }
 
+.header {
+padding:0.5em;
+height: 180px;
+color:white;
+background-color:#26354A;
+}
+
 .login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
 
 input {

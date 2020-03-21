@@ -11,12 +11,12 @@
 
 </head>
 
-<body style="background: #000;">
+<body style="background: #F0F8FF;">
  <div class="login">
 	<h1>Linear Regression</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}"method="post">
+    <form action="{{ url_for('predict_linreg')}}"method="post">
     	<input type="text" name="carat weight" placeholder="carat weight" required="required" />
         <button type="submit" class="btn btn-primary btn-block btn-large">Predicted Price</button>
     </form>

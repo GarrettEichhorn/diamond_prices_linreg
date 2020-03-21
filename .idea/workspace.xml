@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c79f8fb5-2d4b-4073-a637-98966c7064fa" name="Default Changelist" comment="" />
+    <list default="true" id="c79f8fb5-2d4b-4073-a637-98966c7064fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index_linreg.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index_linreg.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YrUNQU5a4ddf38trd3pOTq0Imo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
@@ -133,25 +144,29 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1583709978277" />
-    <state width="1259" height="178" key="GridCell.Tab.0.bottom" timestamp="1583775190488">
-      <screen x="0" y="23" width="1280" height="721" />
+    <state width="1259" height="178" key="GridCell.Tab.0.bottom" timestamp="1584815963759">
+      <screen x="-1920" y="-115" width="1920" height="1057" />
     </state>
     <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583712812710" />
     <state width="1259" height="178" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1583775190488" />
-    <state width="1259" height="178" key="GridCell.Tab.0.center" timestamp="1583775190486">
-      <screen x="0" y="23" width="1280" height="721" />
+    <state width="1259" height="178" key="GridCell.Tab.0.bottom/0.23.1280.723/-1920.-115.1920.1057@-1920.-115.1920.1057" timestamp="1584815963759" />
+    <state width="1259" height="178" key="GridCell.Tab.0.center" timestamp="1584815963758">
+      <screen x="-1920" y="-115" width="1920" height="1057" />
     </state>
     <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583712812708" />
     <state width="1259" height="178" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1583775190486" />
-    <state width="1259" height="178" key="GridCell.Tab.0.left" timestamp="1583775190486">
-      <screen x="0" y="23" width="1280" height="721" />
+    <state width="1259" height="178" key="GridCell.Tab.0.center/0.23.1280.723/-1920.-115.1920.1057@-1920.-115.1920.1057" timestamp="1584815963758" />
+    <state width="1259" height="178" key="GridCell.Tab.0.left" timestamp="1584815963757">
+      <screen x="-1920" y="-115" width="1920" height="1057" />
     </state>
     <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583712812707" />
     <state width="1259" height="178" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1583775190486" />
-    <state width="1259" height="178" key="GridCell.Tab.0.right" timestamp="1583775190487">
-      <screen x="0" y="23" width="1280" height="721" />
+    <state width="1259" height="178" key="GridCell.Tab.0.left/0.23.1280.723/-1920.-115.1920.1057@-1920.-115.1920.1057" timestamp="1584815963757" />
+    <state width="1259" height="178" key="GridCell.Tab.0.right" timestamp="1584815963758">
+      <screen x="-1920" y="-115" width="1920" height="1057" />
     </state>
     <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583712812709" />
     <state width="1259" height="178" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1583775190487" />
+    <state width="1259" height="178" key="GridCell.Tab.0.right/0.23.1280.723/-1920.-115.1920.1057@-1920.-115.1920.1057" timestamp="1584815963758" />
   </component>
 </project>
